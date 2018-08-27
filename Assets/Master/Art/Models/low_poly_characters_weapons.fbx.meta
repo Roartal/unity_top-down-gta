@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: cd0cee92fb6f0d449a525c46bbfe8f47
+timeCreated: 1509653038
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: automatic_prop
+    100002: bullet_medium
+    100004: bullet_medium_loaded
+    100006: bullet_small
+    100008: bullet_small_loaded
+    100010: //RootNode
+    100012: pistol_prop
+    100014: testificate
+    100016: bullet_heavy
+    100018: bullet_heavy_loaded
+    100020: bullet_shotgun
+    100022: Camera
+    100024: item
+    100026: Sun
+    100028: shotgun_prop
+    100030: shotgun_prop_a
+    100032: shorty_prop
+    100034: revolver_prop
+    100036: double_barrel_shotgun_prop
+    100038: heavy_pistol_prop
+    100040: axe_prop
+    400000: automatic_prop
+    400002: bullet_medium
+    400004: bullet_medium_loaded
+    400006: bullet_small
+    400008: bullet_small_loaded
+    400010: //RootNode
+    400012: pistol_prop
+    400014: testificate
+    400016: bullet_heavy
+    400018: bullet_heavy_loaded
+    400020: bullet_shotgun
+    400022: Camera
+    400024: item
+    400026: Sun
+    400028: shotgun_prop
+    400030: shotgun_prop_a
+    400032: shorty_prop
+    400034: revolver_prop
+    400036: double_barrel_shotgun_prop
+    400038: heavy_pistol_prop
+    400040: axe_prop
+    2300000: automatic_prop
+    2300002: bullet_medium
+    2300004: bullet_medium_loaded
+    2300006: bullet_small
+    2300008: bullet_small_loaded
+    2300010: pistol_prop
+    2300012: testificate
+    2300014: bullet_heavy
+    2300016: bullet_heavy_loaded
+    2300018: bullet_shotgun
+    2300020: item
+    2300022: shotgun_prop
+    2300024: shotgun_prop_a
+    2300026: shorty_prop
+    2300028: revolver_prop
+    2300030: double_barrel_shotgun_prop
+    2300032: heavy_pistol_prop
+    2300034: axe_prop
+    3300000: automatic_prop
+    3300002: bullet_medium
+    3300004: bullet_medium_loaded
+    3300006: bullet_small
+    3300008: bullet_small_loaded
+    3300010: pistol_prop
+    3300012: testificate
+    3300014: bullet_heavy
+    3300016: bullet_heavy_loaded
+    3300018: bullet_shotgun
+    3300020: item
+    3300022: shotgun_prop
+    3300024: shotgun_prop_a
+    3300026: shorty_prop
+    3300028: revolver_prop
+    3300030: double_barrel_shotgun_prop
+    3300032: heavy_pistol_prop
+    3300034: axe_prop
+    4300000: bullet_medium_loaded
+    4300002: bullet_medium
+    4300004: bullet_small_loaded
+    4300006: bullet_small
+    4300008: testificate
+    4300010: pistol_prop
+    4300012: automatic_prop
+    4300014: bullet_heavy_loaded
+    4300016: bullet_heavy
+    4300018: bullet_shotgun
+    4300020: item
+    4300022: shotgun_prop
+    4300024: shotgun_prop_a
+    4300026: shorty_prop
+    4300028: revolver_prop
+    4300030: double_barrel_shotgun_prop
+    4300032: heavy_pistol_prop
+    4300034: axe_prop
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

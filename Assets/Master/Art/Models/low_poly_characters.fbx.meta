@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: 01864b58b6115424dba0b01bd51e888f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: hair
+    100006: head
+    100008: head_end
+    100010: //RootNode
+    100012: lowerarm.l
+    100014: lowerarm.l_end
+    100016: lowerarm.r
+    100018: lowerarm.r_end
+    100020: lowerleg.l
+    100022: lowerleg.l_end
+    100024: lowerleg.r
+    100026: lowerleg.r_end
+    100028: root
+    100030: spine
+    100032: spine 2
+    100034: upperarm.l
+    100036: upperarm.r
+    100038: upperleg.l
+    100040: upperleg.r
+    100042: ArmatureT
+    100044: body.001
+    100046: head 1
+    100048: lowerarm.l 1
+    100050: lowerarm.r 1
+    100052: lowerleg.l 1
+    100054: lowerleg.r 1
+    100056: root 1
+    100058: spine 1
+    100060: spine 2 1
+    100062: upperarm.l 1
+    100064: upperarm.r 1
+    100066: upperleg.l 1
+    100068: upperleg.r 1
+    100070: foot.l
+    100072: foot.r
+    100074: hand.l
+    100076: hand.r
+    100078: foot.l_end
+    100080: foot.r_end
+    100082: hand.l_end
+    100084: hand.r_end
+    100086: pistol
+    100088: automatic
+    100090: shoulder_l
+    100092: shoulder_r
+    100094: automatic_prop
+    100096: bullet_medium
+    100098: bullet_medium_loaded
+    100100: bullet_small
+    100102: bullet_small_loaded
+    100104: Camera
+    100106: pistol_prop
+    100108: Sun
+    100110: gun_slide_l
+    100112: gun_slide_r
+    100114: facial
+    100116: gun_mag_l
+    100118: gun_mag_r
+    100120: body_fatty
+    100122: body_normal
+    100124: body_skinny
+    100126: body_cloak
+    100128: body_cloaked
+    100130: body_cloaked.001
+    100132: body_cloaked_mask
+    100134: body_accessories_tactical1
+    100136: body_bushmaster
+    100138: body_default_driver
+    100140: body_helmet_tactical1
+    100142: body_support
+    400000: Armature
+    400002: body
+    400004: hair
+    400006: head
+    400008: head_end
+    400010: //RootNode
+    400012: lowerarm.l
+    400014: lowerarm.l_end
+    400016: lowerarm.r
+    400018: lowerarm.r_end
+    400020: lowerleg.l
+    400022: lowerleg.l_end
+    400024: lowerleg.r
+    400026: lowerleg.r_end
+    400028: root
+    400030: spine
+    400032: spine 2
+    400034: upperarm.l
+    400036: upperarm.r
+    400038: upperleg.l
+    400040: upperleg.r
+    400042: ArmatureT
+    400044: body.001
+    400046: head 1
+    400048: lowerarm.l 1
+    400050: lowerarm.r 1
+    400052: lowerleg.l 1
+    400054: lowerleg.r 1
+    400056: root 1
+    400058: spine 1
+    400060: spine 2 1
+    400062: upperarm.l 1
+    400064: upperarm.r 1
+    400066: upperleg.l 1
+    400068: upperleg.r 1
+    400070: foot.l
+    400072: foot.r
+    400074: hand.l
+    400076: hand.r
+    400078: foot.l_end
+    400080: foot.r_end
+    400082: hand.l_end
+    400084: hand.r_end
+    400086: pistol
+    400088: automatic
+    400090: shoulder_l
+    400092: shoulder_r
+    400094: automatic_prop
+    400096: bullet_medium
+    400098: bullet_medium_loaded
+    400100: bullet_small
+    400102: bullet_small_loaded
+    400104: Camera
+    400106: pistol_prop
+    400108: Sun
+    400110: gun_slide_l
+    400112: gun_slide_r
+    400114: facial
+    400116: gun_mag_l
+    400118: gun_mag_r
+    400120: body_fatty
+    400122: body_normal
+    400124: body_skinny
+    400126: body_cloak
+    400128: body_cloaked
+    400130: body_cloaked.001
+    400132: body_cloaked_mask
+    400134: body_accessories_tactical1
+    400136: body_bushmaster
+    400138: body_default_driver
+    400140: body_helmet_tactical1
+    400142: body_support
+    2000000: Camera
+    2300000: body
+    2300002: body.001
+    2300004: hair
+    2300006: pistol
+    2300008: automatic_prop
+    2300010: bullet_medium
+    2300012: bullet_medium_loaded
+    2300014: bullet_small
+    2300016: bullet_small_loaded
+    2300018: pistol_prop
+    2300020: facial
+    2300022: body_default_driver
+    3300000: body
+    3300002: body.001
+    3300004: hair
+    3300006: pistol
+    3300008: automatic_prop
+    3300010: bullet_medium
+    3300012: bullet_medium_loaded
+    3300014: bullet_small
+    3300016: bullet_small_loaded
+    3300018: pistol_prop
+    3300020: facial
+    3300022: body_default_driver
+    4300000: hair
+    4300002: body
+    4300004: body.001
+    4300006: pistol
+    4300008: automatic
+    4300010: bullet_medium_loaded
+    4300012: bullet_medium
+    4300014: bullet_small_loaded
+    4300016: bullet_small
+    4300018: pistol_prop
+    4300020: automatic_prop
+    4300022: facial
+    4300024: body_fatty
+    4300026: body_skinny
+    4300028: body_normal
+    4300030: body_cloaked.001
+    4300032: body_cloaked_mask
+    4300034: body_cloaked
+    4300036: body_cloak
+    4300038: body_default_driver
+    4300040: body_accessories_tactical1
+    4300042: body_helmet_tactical1
+    4300044: body_support
+    4300046: body_bushmaster
+    7400000: AimingOneHanded
+    7400002: Armature|body.001Action
+    7400004: pistol|body.001Action
+    7400006: AimingTwoHanded
+    7400008: FiringOneHanded
+    7400010: ReloadOneHanded
+    7400012: AttackingAxe
+    7400014: Grabbing
+    7400016: Holding
+    9500000: //RootNode
+    10800000: Sun
+    13700000: body
+    13700002: hair
+    13700004: body.001
+    13700006: pistol
+    13700008: automatic
+    13700010: body_fatty
+    13700012: body_normal
+    13700014: body_skinny
+    13700016: body_cloak
+    13700018: body_cloaked
+    13700020: body_cloaked.001
+    13700022: body_cloaked_mask
+    13700024: body_accessories_tactical1
+    13700026: body_bushmaster
+    13700028: body_helmet_tactical1
+    13700030: body_support
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Scene':\n\tLeftLowerArm
+      average position error 1.4 mm and maximum position error 1.4 mm at time 1:11
+      (13.7%) Frame 35\n\tRightLowerArm average position error 3.6 mm and maximum
+      position error 10.5 mm at time 1: 2 (10.0%) Frame 26\n"
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AimingOneHanded
+      takeName: Armature|ArmatureAction
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FiringOneHanded
+      takeName: Scene
+      firstFrame: 3
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ReloadOneHanded
+      takeName: Scene
+      firstFrame: 7
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackingAxe
+      takeName: Scene
+      firstFrame: 34
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grabbing
+      takeName: Scene
+      firstFrame: 53
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holding
+      takeName: Scene
+      firstFrame: 47
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.55
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperleg.l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperleg.r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerleg.l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerleg.r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine 2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperarm.l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperarm.r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm.l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerarm.r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: low_poly_characters(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: low_poly_characters(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: facial
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.215, y: 1.215, z: 1.215}
+    - name: root
+      parentName: Armature
+      position: {x: -0, y: 0.0028891223, z: 0.0032414368}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine
+      parentName: root
+      position: {x: -0, y: 0.00290305, z: 0}
+      rotation: {x: -0.00000009415697, y: 0.7071068, z: 0.7071067, w: -0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine 2
+      parentName: spine
+      position: {x: -0, y: 0.0023670113, z: 0}
+      rotation: {x: 0, y: -0.00000004371139, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: spine 2
+      position: {x: -0, y: 0.0016996908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_l
+      parentName: spine 2
+      position: {x: -0, y: 0.0016996908, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: upperarm.l
+      parentName: shoulder_l
+      position: {x: -6.91788e-11, y: 0.0032766531, z: -0.00054012146}
+      rotation: {x: -0.0030853306, y: 0.7071, z: -0.003085345, w: 0.70710015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerarm.l
+      parentName: upperarm.l
+      position: {x: 2.4341006e-13, y: 0.0014596725, z: -3.35989e-14}
+      rotation: {x: -0.00000020349398, y: -0.000000008740044, z: 1.7785464e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.l
+      parentName: lowerarm.l
+      position: {x: -2.3814283e-17, y: 0.0019900082, z: -3.1030658e-13}
+      rotation: {x: 4.6753712e-11, y: -8.881784e-16, z: -3.557093e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun_mag_l
+      parentName: hand.l
+      position: {x: 9.834766e-10, y: 0.0011368798, z: 0.00017172148}
+      rotation: {x: 0.70710707, y: 5.8752924e-26, z: 2.4985535e-28, w: 0.7071065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun_slide_l
+      parentName: hand.l
+      position: {x: 3.2782554e-10, y: 0.0006201143, z: -0.0004372601}
+      rotation: {x: 0.00000028134957, y: -2.646978e-23, z: 1.7670036e-28, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_r
+      parentName: spine 2
+      position: {x: -0, y: 0.0016996908, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: -0.49999994, w: 0.50000006}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: upperarm.r
+      parentName: shoulder_r
+      position: {x: 6.91788e-11, y: 0.0032766531, z: -0.00054012146}
+      rotation: {x: 0.00434649, y: 0.9961853, z: -0.00038048625, w: -0.08715443}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: lowerarm.r
+      parentName: upperarm.r
+      position: {x: -2.2500829e-10, y: 0.0014596729, z: 2.1874887e-11}
+      rotation: {x: -0.03920439, y: -0.00021035221, z: -0.0024047222, w: 0.9992283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand.r
+      parentName: lowerarm.r
+      position: {x: 4.686055e-11, y: 0.0019900082, z: 4.1826657e-11}
+      rotation: {x: 0.22633818, y: -0.000000019732397, z: 0.039731123, w: 0.9732381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun_mag_r
+      parentName: hand.r
+      position: {x: -3.972577e-10, y: 0.0011368797, z: 0.00017172108}
+      rotation: {x: 0.7071069, y: 3.071553e-15, z: -2.4099923e-15, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun_slide_r
+      parentName: hand.r
+      position: {x: 3.827797e-11, y: 0.0006201142, z: -0.0004372608}
+      rotation: {x: -4.2351647e-22, y: 1.7763568e-15, z: 8e-45, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperleg.l
+      parentName: spine
+      position: {x: -0.0015876687, y: -0.00047823126, z: -5.588249e-10}
+      rotation: {x: 1, y: -0.00000050487745, z: -0.00000019470721, w: -0.00000039947426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerleg.l
+      parentName: upperleg.l
+      position: {x: -1.0283649e-11, y: 0.001298634, z: -2.9622526e-13}
+      rotation: {x: -0.00000045754527, y: 0.00000023841858, z: -0.0000005048776, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.l
+      parentName: lowerleg.l
+      position: {x: 1.0991208e-17, y: 0.0013474816, z: -4.512406e-17}
+      rotation: {x: 0.00000009415696, y: 0.7071068, z: -0.7071067, w: -0.00000009415697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperleg.r
+      parentName: spine
+      position: {x: 0.0015876687, y: -0.00047823126, z: -2.8122807e-10}
+      rotation: {x: 1, y: 0.00000050487745, z: 0.0000003139165, w: -0.00000039947432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerleg.r
+      parentName: upperleg.r
+      position: {x: 1.1168813e-11, y: 0.001298634, z: -5.282814e-13}
+      rotation: {x: -0.0000004575452, y: -0.00000027020508, z: 0.00000050487756, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.r
+      parentName: lowerleg.r
+      position: {x: -1.8013368e-17, y: 0.0013474816, z: 0}
+      rotation: {x: -0.00000009415697, y: 0.7071068, z: -0.7071067, w: 0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: low_poly_characters(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 121.5, y: 121.5, z: 121.5}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PlayerControllerUpperDual
+  m_Mask: 00000000010000000100000000000000000000000100000001000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/root
+    m_Weight: 0
+  - m_Path: Armature/root/spine
+    m_Weight: 1
+  - m_Path: Armature/root/spine/spine 2
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/head
+    m_Weight: 1
+  - m_Path: Armature/root/spine/spine 2/head/head_end
+    m_Weight: 1
+  - m_Path: Armature/root/spine/spine 2/shoulder_l
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_l/upperarm.l
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_l/upperarm.l/lowerarm.l
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_l/upperarm.l/lowerarm.l/hand.l
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_l/upperarm.l/lowerarm.l/hand.l/hand.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_r
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_r/upperarm.r
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_r/upperarm.r/lowerarm.r
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_r/upperarm.r/lowerarm.r/hand.r
+    m_Weight: 0
+  - m_Path: Armature/root/spine/spine 2/shoulder_r/upperarm.r/lowerarm.r/hand.r/hand.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/spine/upperleg.l
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.l/lowerleg.l
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.l/lowerleg.l/foot.l
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.l/lowerleg.l/foot.l/foot.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.r
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.r/lowerleg.r
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.r/lowerleg.r/foot.r
+    m_Weight: 1
+  - m_Path: Armature/root/spine/upperleg.r/lowerleg.r/foot.r/foot.r_end
+    m_Weight: 1
+  - m_Path: automatic
+    m_Weight: 1
+  - m_Path: body.001
+    m_Weight: 1
+  - m_Path: pistol
+    m_Weight: 1
+  - m_Path: hair
+    m_Weight: 1
+  - m_Path: body
+    m_Weight: 1

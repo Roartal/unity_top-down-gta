@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 0af17c2511913374faeabdbf2a84448a
+timeCreated: 1504895380
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: body.001
+    100006: Camera
+    100008: foot.l
+    100010: foot.l_end
+    100012: foot.r
+    100014: foot.r_end
+    100016: hand.l
+    100018: hand.l_end
+    100020: hand.r
+    100022: head
+    100024: //RootNode
+    100026: lowerarm.l
+    100028: lowerarm.r
+    100030: lowerleg.l
+    100032: lowerleg.r
+    100034: luger
+    100036: mouth
+    100038: mouth_end
+    100040: pistol_arm
+    100042: pistol_arm.001
+    100044: pistol_arm.001_end
+    100046: root
+    100048: spine
+    100050: spine 2
+    100052: stahlhelm
+    100054: upperarm.l
+    100056: upperarm.r
+    100058: upperleg.l
+    100060: upperleg.r
+    400000: Armature
+    400002: body
+    400004: body.001
+    400006: Camera
+    400008: foot.l
+    400010: foot.l_end
+    400012: foot.r
+    400014: foot.r_end
+    400016: hand.l
+    400018: hand.l_end
+    400020: hand.r
+    400022: head
+    400024: //RootNode
+    400026: lowerarm.l
+    400028: lowerarm.r
+    400030: lowerleg.l
+    400032: lowerleg.r
+    400034: luger
+    400036: mouth
+    400038: mouth_end
+    400040: pistol_arm
+    400042: pistol_arm.001
+    400044: pistol_arm.001_end
+    400046: root
+    400048: spine
+    400050: spine 2
+    400052: stahlhelm
+    400054: upperarm.l
+    400056: upperarm.r
+    400058: upperleg.l
+    400060: upperleg.r
+    2000000: Camera
+    4300000: luger
+    4300002: stahlhelm
+    4300004: body.001
+    4300006: body
+    7400000: Camera|body.001Action.001
+    7400002: Camera|CameraAction
+    7400004: Armature|ArmatureAction
+    7400006: Armature|body.001Action.001
+    7400008: Armature|CameraAction
+    7400010: luger|body.001Action.001
+    7400012: luger|CameraAction
+    7400014: stahlhelm|body.001Action.001
+    7400016: stahlhelm|CameraAction
+    7400018: body.001|body.001Action.001
+    7400020: body.001|CameraAction
+    9500000: //RootNode
+    13700000: body
+    13700002: body.001
+    13700004: luger
+    13700006: stahlhelm
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.55
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
