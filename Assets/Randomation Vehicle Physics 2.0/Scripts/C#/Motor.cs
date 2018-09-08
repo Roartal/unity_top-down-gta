@@ -50,7 +50,6 @@ public abstract class Motor : MonoBehaviour
 	public float health = 1;
 	public float damagePitchWiggle;
 	public ParticleSystem smoke;
-	float initialSmokeEmission;
 
 	public bool tryIgnition = false;
 
@@ -79,11 +78,6 @@ public abstract class Motor : MonoBehaviour
 			boostSnd.transform.localPosition = Vector3.zero;
 			boostSnd.transform.localRotation = Quaternion.identity;
 			boostSnd.loop = false;
-		}
-
-		if (smoke)
-		{
-			initialSmokeEmission = smoke.emission.rate.constantMax;
 		}
 	}
 
@@ -182,7 +176,7 @@ public abstract class Motor : MonoBehaviour
 		if (smoke)
 		{
             ParticleSystem.EmissionModule em = smoke.emission;
-			em.rate = new ParticleSystem.MinMaxCurve(health < 0.7f ? initialSmokeEmission * (1 - health) : 0);
+			em.rate = new ParticleSystem.MinMaxCurve(health < 0.65f ? 10 * (1 - health) - 3 : 0);
 		}
 	}
 }

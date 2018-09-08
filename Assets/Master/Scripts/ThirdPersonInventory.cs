@@ -116,7 +116,18 @@ public class ThirdPersonInventory : MonoBehaviour {
 			updateUI = false;
 		tpAimScript.SwitchWeapon (inv [i].curItem, updateUI);
 		invSelected = i;
-		ThirdPersonUIHandler.master.UpdateSlotSelectorPos (inv [i].gameObject.transform.position);
+        for (int b = 0; b < this.inv.GetLength(0); b++)
+        {
+            if(b == invSelected)
+            {
+                LeanTween.alpha(inv[b].iconHolder.rectTransform, 1f, 0.1f);
+            }
+            else
+            {
+                LeanTween.alpha(inv[b].iconHolder.rectTransform, 0.4f, 0.1f);
+            }
+        }
+        ThirdPersonUIHandler.master.UpdateSlotSelectorPos (inv [i].gameObject);
 	//	}
 	//	else
 	//		throw new InventoryFullException ("AlreadySelectedSlot(" + i + ")");

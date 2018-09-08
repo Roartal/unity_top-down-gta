@@ -10,11 +10,13 @@ namespace UnityStandardAssets.Utility
 		[SerializeField]
 		public Transform target;
 		public Rigidbody vel;
+        public bool followVel = true;
 		// The distance in the x-z plane to the target
 		public float dampAmount = 1; 
 		public float zoom = 0;
 		public float zoomMax = 2f;
 		public Transform cam;
+        public GameObject shakeGameObject;
 
 		[SerializeField] private float m_MoveSpeed = 1f;                      // How fast the rig will move to keep up with the target's position.
 		[Range(0f, 10f)] [SerializeField] private float m_TurnSpeed = 1.5f;   // How fast the rig will rotate from user input.
@@ -31,20 +33,33 @@ namespace UnityStandardAssets.Utility
 		private Quaternion m_PivotTargetRot;
 		private Quaternion m_TransformTargetRot;
 
+        public float lastframesvelocity;
+        float gforce;
+        float eulerZ;
 		// Update is called once per frame
 		void FixedUpdate()
 		{
-			cam.localPosition = Vector3.Lerp(cam.localPosition, new Vector3 (cam.localPosition.x, 60 - zoom, -14 + zoom/7),Time.deltaTime * dampAmount);
+            cam.localPosition = Vector3.Lerp(cam.localPosition, new Vector3 (cam.localPosition.x, 60 - zoom, -14 + zoom/7),Time.deltaTime * dampAmount);
 			// Early out if we don't have a target
 			if (!target)
 				return;
-			if(vel)
-				transform.position = Vector3.Lerp(transform.position,target.position + vel.velocity * 0.3f, Time.deltaTime * dampAmount);
-			else
-				transform.position = Vector3.Lerp(transform.position,target.position, Time.deltaTime * dampAmount);
+            if (followVel && vel)
+            {
+                transform.position = Vector3.Lerp(transform.position, target.position + vel.velocity * 0.3f + new Vector3(shakeGameObject.transform.rotation.x, shakeGameObject.transform.rotation.x, shakeGameObject.transform.rotation.x), Time.deltaTime * dampAmount);
+                //G-Force
+                gforce = (vel.velocity.magnitude - lastframesvelocity) / (Time.deltaTime * Physics.gravity.magnitude);
+                if(Mathf.Abs(gforce)> 3)
+                {
+                    print(gforce);
+                }
+                lastframesvelocity = vel.velocity.magnitude;
+
+            }
+            else
+                transform.position = Vector3.Lerp(transform.position, target.position, Time.deltaTime * dampAmount);
 		}
 
-		void Update()
+        void Update()
 		{
 			zoom += Input.GetAxis ("Mouse ScrollWheel") * 10;
 			zoom = Mathf.Clamp (zoom, 0, zoomMax);

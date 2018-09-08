@@ -60,6 +60,7 @@ public class VehicleParent : MonoBehaviour
 	public Motor engine;
     public Transmission trans;
     public GearboxTransmission gearbox;
+    public VehicleSeatTrigger driverSeat;
 
     public AudioSource horn;
 
@@ -132,6 +133,7 @@ public class VehicleParent : MonoBehaviour
 	
 	void Start()
 	{
+        driverSeat = GetComponentInChildren<VehicleSeatTrigger>();
 		input = GetComponent<BasicInput> ();
 		tr = transform;
 		rb = GetComponent<Rigidbody>();

@@ -11,6 +11,7 @@ public class ThirdPersonObjectHealth : MonoBehaviour {
 	bool isDead = false;
 	bool canTakeDamage = true;
 	public ParticleSystem splatter;
+    public Renderer rend;
 
 	void Awake()
 	{
@@ -22,6 +23,7 @@ public class ThirdPersonObjectHealth : MonoBehaviour {
 		if (!isDead && canTakeDamage)
 			splatter.Emit (1);
 		health -= damage;
+        StartCoroutine(GlobalControl.Flicker(rend, 0f, 0.2f, 0.1f, 0.5f));
 		UpdateHealth (health, maxHealth);
 		if (health <= 0f)
 			Die ();

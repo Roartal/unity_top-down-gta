@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: mat 6
+  m_Name: support
   m_Shader: {fileID: 4800000, guid: 3516274937c2dbd44bc2003c608dcf93, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 804ee5d16723cc1438cf105afa40a750, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -72,6 +72,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Emission: 1
+    - _FlashAmount: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

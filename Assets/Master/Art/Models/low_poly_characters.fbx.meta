@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 01864b58b6115424dba0b01bd51e888f
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Armature
     100002: body
@@ -75,6 +75,7 @@ ModelImporter:
     100138: body_default_driver
     100140: body_helmet_tactical1
     100142: body_support
+    100144: body_detailed
     400000: Armature
     400002: body
     400004: hair
@@ -147,6 +148,7 @@ ModelImporter:
     400138: body_default_driver
     400140: body_helmet_tactical1
     400142: body_support
+    400144: body_detailed
     2000000: Camera
     2300000: body
     2300002: body.001
@@ -196,6 +198,7 @@ ModelImporter:
     4300042: body_helmet_tactical1
     4300044: body_support
     4300046: body_bushmaster
+    4300048: body_detailed
     7400000: AimingOneHanded
     7400002: Armature|body.001Action
     7400004: pistol|body.001Action
@@ -223,6 +226,7 @@ ModelImporter:
     13700026: body_bushmaster
     13700028: body_helmet_tactical1
     13700030: body_support
+    13700032: body_detailed
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -446,6 +450,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.0055
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

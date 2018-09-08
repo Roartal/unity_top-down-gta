@@ -67,7 +67,16 @@ public class GasMotor : Motor
 			}
 			else
 			{
-				targetDrive.torque = torqueCurve.Evaluate(targetDrive.feedbackRPM * 0.001f - (boosting ? boostEval : 0)) * Mathf.Lerp(targetDrive.torque, power * Mathf.Abs(System.Math.Sign(actualInput)), (1 - inertia) * Time.timeScale) * (boosting ? 1 + boostEval : 1) * health;
+                float healthMultiplier = 0f;
+                if (health > 0f)
+                {
+                    if (health < 0.7f)
+                        healthMultiplier = 2 * (health*health); //0.1f + Mathf.Sqrt(health);
+                    else
+                        healthMultiplier = 1f;
+                }
+
+				targetDrive.torque = torqueCurve.Evaluate(targetDrive.feedbackRPM * 0.001f - (boosting ? boostEval : 0)) * Mathf.Lerp(targetDrive.torque, power * Mathf.Abs(System.Math.Sign(actualInput)), (1 - inertia) * Time.timeScale) * (boosting ? 1 + boostEval : 1) * healthMultiplier;
 			}
 
 			//Send RPM and torque through drivetrain

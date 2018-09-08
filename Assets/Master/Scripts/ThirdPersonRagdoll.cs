@@ -26,14 +26,14 @@ public class ThirdPersonRagdoll : MonoBehaviour {
 	public void OnCollisionEnter(Collision col)
 	{
 		if (col.rigidbody) {
-			if (col.rigidbody.velocity.magnitude > 5f) {
+			if (col.rigidbody.velocity.magnitude > 12f) {
 				EnableRagdoll ();
 				tpHealth.ApplyDamage (Mathf.Clamp (col.rigidbody.velocity.magnitude, 0, 9));
 				audiosource.PlayOneShot(hits[Random.Range(0,hits.Length)]);
 			}
 		}
 
-		if (!tpMotor.m_IsGrounded && col.impulse.magnitude > 0.1f) {
+		if (!tpMotor.m_IsGrounded && col.impulse.magnitude > 5f) {
 			EnableRagdoll ();
 			tpHealth.ApplyDamage (Mathf.Clamp(col.impulse.magnitude,0,9));
 			audiosource.PlayOneShot(hits[Random.Range(0,hits.Length)]);
@@ -55,7 +55,6 @@ public class ThirdPersonRagdoll : MonoBehaviour {
 		mainCol.enabled = false;
 		anim.enabled = false;
 		root.transform.SetParent (null);
-		cam.vel = spineRB;
 		foreach (Rigidbody r in RBs) {
 			r.velocity = spineRB.velocity;
 		}
@@ -71,7 +70,6 @@ public class ThirdPersonRagdoll : MonoBehaviour {
 		//mainRB.constraints = RigidbodyConstraints.FreezeRotation;
 		mainRB.isKinematic = false;
 		mainCol.enabled = true;
-		cam.vel = mainRB;
 		root.transform.SetParent (transform);
 	}
 }

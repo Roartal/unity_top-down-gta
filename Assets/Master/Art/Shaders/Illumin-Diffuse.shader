@@ -5,6 +5,7 @@ Properties {
     _Color ("Main Color", Color) = (1,1,1,1)
     _MainTex ("Base (RGB)", 2D) = "white" {}
     _Illum ("Illumin (A)", 2D) = "white" {}
+	_FlashAmount("Flash Amount",Range(0.0,1.0)) = 0.0
     _Emission ("Emission (Lightmapper)", Float) = 1.0
 }
 SubShader {
@@ -19,6 +20,7 @@ sampler2D _MainTex;
 sampler2D _Illum;
 fixed4 _Color;
 fixed _Emission;
+float _FlashAmount;
 
 struct Input {
     float2 uv_MainTex;
@@ -30,6 +32,7 @@ void surf (Input IN, inout SurfaceOutput o) {
     fixed4 c = tex * _Color;
     o.Albedo = c.rgb;
     o.Emission = c.rgb * tex2D(_Illum, IN.uv_Illum).a;
+	o.Emission = lerp(c.rgb, float3(1.0, 1.0, 1.0), _FlashAmount);
 #if defined (UNITY_PASS_META)
     o.Emission *= _Emission.rrr;
 #endif

@@ -7,35 +7,20 @@ public class VehicleSeatTrigger : MonoBehaviour {
 	public VehicleParent vp;
 	private ThirdPersonVehicleInteraction tpvi;
     Texture driverTexture;
-    Renderer driverMesh;
+    public Renderer driverMesh;
 
 	// Use this for initialization
 	void Start () {
 		vp = GetComponentInParent<VehicleParent> ();
 	}
-	
-	// Update is called once per frame
-	void OnTriggerEnter(Collider col)
-	{
-		if (col.GetComponent<ThirdPersonVehicleInteraction> ()) {
-			if (tpvi == null)
-				tpvi = col.GetComponent<ThirdPersonVehicleInteraction> ();
-			if (tpvi.curVp == null)
-				tpvi.curVp = vp;
-		}
-	}
 
-    public void ToggleDriverMesh(bool on = true)
+    public void ToggleDriverMesh(bool on = true, Texture tex = null)
     {
-        driverMesh.enabled = on;
+        if (driverMesh)
+        {
+            driverMesh.enabled = on;
+            driverMesh.material.SetTexture("_MainTex", tex);
+        }
 
     }
-
-	void OnTriggerExit()
-	{
-		if (tpvi != null) {
-			tpvi.curVp = null;
-			tpvi = null;
-		}
-	}
 }

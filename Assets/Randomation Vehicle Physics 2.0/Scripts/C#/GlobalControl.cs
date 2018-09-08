@@ -62,7 +62,33 @@ public class GlobalControl : MonoBehaviour
 		tireFadeTimeStatic = tireFadeTime;
 	}
 
-	void Update()
+
+    public static IEnumerator Flicker(Renderer renderer, float initialValue, float flickerValue, float flickerSpeed, float flickerDuration)
+    {
+        if (initialValue == flickerValue)
+        {
+            yield break;
+        }
+
+        float size = renderer.transform.localScale.x;
+
+        WaitForSeconds flickerTime = new WaitForSeconds(flickerSpeed);
+        float flickerStop = Time.time + flickerDuration;
+
+        while (Time.time < flickerStop)
+        {
+            renderer.material.SetFloat("_FlashAmount", flickerValue);
+            LeanTween.scale(renderer.gameObject, Vector3.one * size * (1.1f), flickerSpeed);
+            yield return flickerTime;
+            LeanTween.scale(renderer.gameObject, Vector3.one * size * (0.9f), flickerSpeed);
+            renderer.material.SetFloat("_FlashAmount", initialValue);
+            yield return flickerTime;
+        }
+
+        renderer.material.SetFloat("_FlashAmount", initialValue); ;
+    }
+
+    void Update()
 	{
 		if (quickRestart)
 		{

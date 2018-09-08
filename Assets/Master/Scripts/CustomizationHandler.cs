@@ -19,8 +19,8 @@ public class CustomizationHandler : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (useRandomColor) {
-			vehicleColor = Random.ColorHSV ();
+		if (useRandomColor) {               //hue  /saturation  /value
+			vehicleColor = Random.ColorHSV (0f, 1f, 0.4f, 1f, 0.4f, 1f);
 			if (!isVehicle) {
 				charColors [3] = vehicleColor;
 				charColors [4] = vehicleColor;

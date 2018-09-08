@@ -29,10 +29,16 @@ public class ThirdPersonUIHandler : MonoBehaviour {
 		healthImage.fillAmount = health / maxHealth;
 	}
 
-	public void UpdateSlotSelectorPos(Vector3 pos)
+    GameObject lastSelectedSlot;
+
+	public void UpdateSlotSelectorPos(GameObject slot)
 	{
-		slotSelector.position = pos;
-	}
+        LeanTween.scale(lastSelectedSlot, Vector3.one, 0.1f);
+        LeanTween.scale(slot, Vector3.one * 1.4f, 0.1f);
+        slotSelector.position = slot.transform.position;
+        lastSelectedSlot = slot;
+
+    }
 
 	public void UpdateStaminaRestriction(float s)
 	{
@@ -53,7 +59,7 @@ public class ThirdPersonUIHandler : MonoBehaviour {
 			UI.SetTrigger ("Fire");
 		if (!melee) {
 			ammoInMag.text = "" + mag;
-			ammoLeft.text = "I " + left;
+			ammoLeft.text = "/ " + left;
 			bulletsImage.fillAmount = mag / maxMag;
 			if (mag == 0) {
 				bulletsImage.fillAmount = 1;

@@ -10,6 +10,7 @@ public class ThirdPersonHealthManager : MonoBehaviour {
 	bool isDead = false;
 	bool canTakeDamage = true;
 	public ParticleSystem splatter;
+    public Renderer rend;
 
 	void Awake()
 	{
@@ -24,7 +25,8 @@ public class ThirdPersonHealthManager : MonoBehaviour {
 			if (health <= 0f)
 				Die ();
 		ThirdPersonUIHandler.master.UpdateHealth (health, maxHealth);
-	}
+        StartCoroutine(GlobalControl.Flicker(rend, 0f, 0.2f, 0.1f, 0.5f));
+    }
 
 	public void Die()
 	{
