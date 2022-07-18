@@ -11,8 +11,8 @@ namespace Deftly
         public float Speed = 1f;
         public float Duration = 1f;
 
-        [HideInInspector]
-        public GUIText TextReference;
+       // [HideInInspector]
+       // public GUIText TextReference;
         [HideInInspector]
         public Vector3 StartPosition;
         [HideInInspector]
@@ -30,13 +30,13 @@ namespace Deftly
         {
             _dir *= Speed;
             StartCoroutine(Life());
-            TextReference = GetComponent<GUIText>();
-            if (TextReference == null)
-            {
-                Debug.LogError("No GUIText Component was found on the Floating Text Prefab! Add a <color=green>GUIText</color> (Not [UI] <color=red>Text</color>) component.");
-                return;
-            }
-            TextReference.text = Value;
+           // TextReference = GetComponent<GUIText>();
+           // if (TextReference == null)
+           // {
+           //     Debug.LogError("No GUIText Component was found on the Floating Text Prefab! Add a <color=green>GUIText</color> (Not [UI] <color=red>Text</color>) component.");
+           //     return;
+           // }
+           // TextReference.text = Value;
         }
         void Update()
         {
